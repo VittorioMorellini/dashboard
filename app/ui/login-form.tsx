@@ -9,7 +9,7 @@ import { authenticate } from '@/app/lib/actions';
 
 export default function LoginForm() {
   const [code, action] = useFormState(authenticate, undefined);
-  const { pending } = useFormStatus();
+  //const { pending } = useFormStatus();
   
   return (
     <form action={action} className="space-y-3">

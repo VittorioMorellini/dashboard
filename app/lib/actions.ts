@@ -9,7 +9,6 @@ export async function authenticate(prevState: string | undefined, formData: Form
     try {
         console.log('Sto per fare signIn')
         await signIn('credentials', Object.fromEntries(formData));
-        //redirect('/dashboard')
     } catch (error) {
         if ((error as Error).message.includes('CredentialsSignin')) {
             return 'CredentialSignin';
