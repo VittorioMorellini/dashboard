@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ["localhost:3000", "dashboard-vittoriomorellini.vercel.app"],
-        path: "https://dashboard-vittoriomorellini.vercel.app/images",
+        domains: ["localhost", "dashboard-vittoriomorellini.vercel.app"],
         remotePatterns: [
             {
                 hostname: "next-learn-dashboard.vercel.sh",
