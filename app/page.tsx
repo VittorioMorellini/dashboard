@@ -30,6 +30,11 @@ export default function Page() {
           >
             <span>Log in</span>
           </Link>
+          <div className='pt-4'>
+            <Link href={'/static/Resume.pdf'}  target="_blank" rel="noopener noreferrer" className="font-bold text-2xl hover:underline" >
+                Download Resume
+            </Link>
+          </div>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
